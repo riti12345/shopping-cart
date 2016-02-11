@@ -1,0 +1,6 @@
+ data =[{"id":1,"name":"Sofit Chocolate Milk","price":95},
+
+		{"id":2,"name":"Sofit pista Milk","price":90}];
+
+cart=[{"name":"","price":""}];
+

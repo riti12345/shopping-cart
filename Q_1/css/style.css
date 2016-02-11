@@ -1,0 +1,81 @@
+body {
+   
+    font: normal 13px/1.5 Georgia, Serif;
+    color: #333;
+}
+
+h3{
+	font-size: 16px;
+    color:#fff;
+    width: 240px;
+    padding: 10px;
+    padding-left: 30px;
+  
+}
+p{
+    font-size:14px;
+    padding-left:25px;
+}
+table,thead,tr{
+    margin-top: 10px;
+    width: 240px;
+    height: 50px;
+    background-color: #efefef;
+    }
+    th{
+        padding-left: 10px;
+    }
+
+.wrapper {
+    width: 705px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.nav {
+      background-color:#ccccff;
+      font-size: 14px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+    z-index: 1;
+  }
+
+#image{
+	display: block;
+    margin: auto;
+    height:100px;
+}
+.shopping-cart{
+display: block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+   height:35px;
+	width: 35px;
+	margin:20px;
+    
+}
+
+.add-to-cart{
+	width:240px;
+	background-color: red;
+}
+.item{
+	 background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 205px;
+    padding: 10px;
+    height: 290px;
+}
+.col-md-3{
+	height:250px;
+	width:250px;
+	margin:20px;
+}
+.product{
+	height:35px;
+	width: 240px;
+	background-color:blue;
+}
+#subname{
+    padding-left: 30px;
+}

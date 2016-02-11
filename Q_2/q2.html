@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+body{
+	margin-top:300px;
+	margin-left: 500px;
+}
+.slideswitch {
+    position: relative;
+     width: 150px;
+   
+}
+.slideswitch-checkbox {
+    display: none;
+}
+.slideswitch-label {
+    display: block; 
+    overflow: hidden;
+     cursor: pointer;
+     padding-right:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left: 1px;
+    border: 2px solid #999999; 
+}
+.slideswitch-inner {
+    display: block;
+     width: 200%; margin-left:-100%;
+   
+}
+.slideswitch-inner:before, .slideswitch-inner:after {
+    display: block;
+     float: left;
+      width: 50%;
+       height: 30px;
+        padding: 2px;
+         line-height: 30px;
+    font-size: 14px; 
+     font-weight: bold;
+    box-sizing: border-box;
+}
+.slideswitch-inner:before {
+    content: "PER TRUCK";
+    padding-left: 8px;
+    background-color:#00e600; 
+    color:#fff;
+
+}
+.slideswitch-inner:after {
+    content: "PER TON";
+    padding-right:25px;
+    background-color: #E66600; color: #fff;
+    text-align: right;
+}
+.slideswitch-switch {
+    display: block; width: 20px;
+    background: black;
+    position: absolute; top: 0; bottom: 0;
+   
+    border: 0px solid #999999;
+    
+}
+.slideswitch-checkbox:checked + .slideswitch-label .slideswitch-inner {
+    margin-left: 0;
+}
+.slideswitch-checkbox:checked + .slideswitch-label .slideswitch-switch {
+    right: 0px; 
+}
+</style>
+</head>
+<body>
+
+<div class="slideswitch">
+    <input type="checkbox" name="slideswitch" class="slideswitch-checkbox" id="myslideswitch" checked>
+    <label class="slideswitch-label" for="myslideswitch">
+        <span class="slideswitch-inner"></span>
+        <span class="slideswitch-switch"></span>
+    </label>
+</div>
+
+</body>
+</html>

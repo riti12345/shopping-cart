@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping cart</title>
+  <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="nav navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <span><i class="shopping-cart"></i></span>
+              <ul class="dropdown-menu show-cart"><li  ></li></ul>
+
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="item">
+          <h3 class="product" data-name="sofit chocolate Milk">sofit chocolate Milk</h3>
+          <img src="images/1.jpg" id="image" alt="item"/>
+          <table >
+            <thead>
+              <tr>
+                <th scope="col" id="subname">Tetrapack 1.0 Lt</th>
+              </tr>
+              <tr>
+                <th scope="col" id="price" class="price" data-price="95" value="95">&#8377;<span>95</span></th>
+                <th scope="col"  style="text-decoration:line-through">&#8377;99</th>
+              </tr>
+              <tr>
+                <th>
+                  <input type="number" min="1" class="num_item" id="item-1" style="width:30px;" value="1">
+                </th>
+                  <th>
+                    <select id="quantity" class="unit-select" name="value">
+                      <option value="95" >1.0 Lt</option>
+                      <option value="19" >200.0 ml</option>
+                    </select>
+                  </th>
+              </tr>
+            </thead>
+          </table>
+          <input id="product-1" data-name="sofit chocolate Milk" data-price="95" class="btn primary-btn add-to-cart" type="button" value="BUY">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="item">
+          <h3 class="product" data-name="sofit pista milk"><p>sofit pista milk</p></h3>
+          <img src="images/2.jpg" id="image" alt="item"/>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col" id="subname">Tetrapack 1.0 Lt</th>
+              </tr>
+              <tr>
+                <th scope="col" id="price2" class="price">&#8377;<span>90</span></th>
+                <th scope="col"  style="text-decoration:line-through">&#8377;99</th>
+              </tr>
+              <tr>
+                <th>
+                  <input type="number" min="1" class="num_item" style="width:30px;" value="1">
+                </th>
+                <th><select id="quantity" class="unit-select" name="value">
+                  <option value="90" >1.0 Lt</option>
+                  <option value="18" >200.0 ml</option>
+                </select>
+              </th>
+            </tr>
+          </thead>
+        </table>
+        <input type="button" class="btn primary-btn add-to-cart" value="BUY" id="product-2" data-name="sofit pista Milk" data-price="90" >
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script type="text/javascript" src="js/change.js"></script>
+<script type="text/javascript" src="js/fly.js"></script>
+<script type="text/javascript" src="js/json.js"></script>
+</body>
+</html>
